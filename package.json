@@ -1,0 +1,15 @@
+{
+  "name": "animation-class",
+  "version": "1.0.0",
+  "description": "Animation class project",
+  "scripts": {
+    "sass": "sass style.scss style.css",
+    "sass:watch": "sass --watch . --output ."
+  },
+  "dependencies": {
+    "gsap": "^3.12.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
