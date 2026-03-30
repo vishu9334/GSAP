@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+ 
+}
+nav {
+  overflow: hidden;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+opacity: 0.5;
+
+}
+section {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap:4em;
+  opacity: 0.5;
+}
+section > :nth-child(1) {
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  display: inline-block;
+  transform: scaleY(1.5);
+  font-size: 13em;
+  font-weight: 900;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  letter-spacing: -20px;
+  padding-left: 3rem;
+}
+section .box > :nth-child(6){
+    /* background-color: red; */
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+
+section .first-head:nth-of-type(odd):hover {
+  color: crimson;
+}
+section .b-main {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+section .b-main > :nth-child(1) {
+  width: 75%;
+  height: 90%;
+  font-size: 5.5em;
+  display: inline-block;
+  transform: scaleY(1.4);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  letter-spacing: -12px;
+  padding-left: 3rem;
+  overflow: hidden;
+}
+
+section .b-main > :nth-child(2) {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-right: 3rem;
+  font-weight:100;
+
+}
